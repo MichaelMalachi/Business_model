@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная страница</title>
+    <!-- Подключите стили, если необходимо -->
+</head>
+<body>
+    <h1>Добро пожаловать на главную страницу</h1>
+    <!-- Ваша остальная разметка -->
+
+    <!-- Добавляем кнопку -->
+    <a href="{% url 'product_list' %}" class="btn btn-primary">Перейти к списку товаров</a>
+
+    <!-- Если вы хотите использовать кнопку формы -->
+    <!--
+    <form action="{% url 'product_list' %}" method="get">
+        <button type="submit" class="btn btn-primary">Перейти к списку товаров</button>
+    </form>
+    -->
+
+</body>
+</html>
